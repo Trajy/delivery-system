@@ -1,0 +1,13 @@
+# Tratar imagens como binários
+*.png binary
+*.jpg binary
+*.jpeg binary
+
+# Tratar arquivos Excalidraw como binários
+*.excalidraw binary
+
+# Evitar merge automático
+*.png merge=bin
+*.jpg merge=bin
+*.jpeg merge=bin
+*.excalidraw merge=bin
