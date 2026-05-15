@@ -1,6 +1,7 @@
 COMPOSE_FILES = \
 	-f docker-compose.yml \
-	-f docker-compose.database.yml
+	-f docker-compose.database.yml \
+	-f docker-compose.auth.yml
 
 PROJECT_NAME = delivery-system
 

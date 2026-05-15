@@ -1,0 +1,15 @@
+services:
+  keycloak:
+    image: quay.io/keycloak/keycloak:25.0.6
+    container_name: keycloak
+    restart: unless-stopped
+    depends_on:
+      - postgres
+    env_file:
+      - .env
+    ports:
+      - "5555:8080"
+    command:
+      - start-dev
+    networks:
+      - delivery-system-network
