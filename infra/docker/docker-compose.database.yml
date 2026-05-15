@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: postgres:17
+    container_name: postgres
+    env_file:
+      - .env
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432" 
+    networks:
+      - delivery-system-network
+
+volumes:
+  postgres_data:
+    driver: local
