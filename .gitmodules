@@ -1,0 +1,3 @@
+[submodule "infra/identity"]
+	path = infra/identity
+	url = https://github.com/Trajy/delivery-system-infra-identity.git
