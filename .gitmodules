@@ -1,3 +1,6 @@
 [submodule "infra-domain/identity"]
 	path = infra-domain/identity
 	url = https://github.com/Trajy/delivery-system-infra-identity.git
+[submodule "docusaurus-wiki"]
+	path = docusaurus-wiki
+	url = https://github.com/Trajy/delivery-system-docusaurus-wiki.git
